@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - develop
-      - feat/ag/TL-9-homework
+      - feat/ag/TL-9-HW
   pull_request:
     branches:
       - main
