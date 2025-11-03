@@ -55,7 +55,7 @@ test('Delete order with correct id', async ({ request }) => {
   })
 
   const responseCreateData: OrderDTO = await responseCreate.json()
-  const responseDeleteData: OrderDTO = await responseCreate.json()
+  const responseDeleteData: OrderDTO = await responseDelete.json()
 
   expect.soft(responseCreate.status()).toBe(StatusCodes.OK)
   expect.soft(responseDelete.status()).toBe(204)
