@@ -3,7 +3,9 @@ name: Check formatting, linting, and run tests
 on:
   push:
     branches:
-      [main, develop]
+      - main
+      - develop
+      - feat/ag/TL-9-HW
   pull_request:
     branches:
       - main
